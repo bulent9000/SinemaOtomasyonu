@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75644EE7-E786-4E44-B9C2-EAEF4FB8FC29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SinemaOtomasyonu</RootNamespace>
+    <AssemblyName>SinemaOtomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonBirSaatOnbirOtuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonBirSaatOnbirOtuz.Designer.cs">
+      <DependentUpon>SalonBirSaatOnbirOtuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonBirSaatOnüc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonBirSaatOnüc.Designer.cs">
+      <DependentUpon>SalonBirSaatOnüc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonDörtSaatOnaltiOtuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonDörtSaatOnaltiOtuz.Designer.cs">
+      <DependentUpon>SalonDörtSaatOnaltiOtuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonDörtSaatOndokuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonDörtSaatOndokuz.Designer.cs">
+      <DependentUpon>SalonDörtSaatOndokuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnaltiOtuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnaltiOtuz.Designer.cs">
+      <DependentUpon>SalonIkiSaatOnaltiOtuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnBes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnBes.Designer.cs">
+      <DependentUpon>SalonIkiSaatOnBes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnbirOtuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnbirOtuz.Designer.cs">
+      <DependentUpon>SalonIkiSaatOnbirOtuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOnBes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOnBes.Designer.cs">
+      <DependentUpon>SalonUcSaatOnBes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOndokuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOndokuz.Designer.cs">
+      <DependentUpon>SalonUcSaatOndokuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOndört.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOndört.Designer.cs">
+      <DependentUpon>SalonUcSaatOndört.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalDörtOnbes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalDörtOnbes.Designer.cs">
+      <DependentUpon>BarbieSalDörtOnbes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalDörtYirmiOtuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalDörtYirmiOtuz.Designer.cs">
+      <DependentUpon>BarbieSalDörtYirmiOtuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiSaatOndört.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiSaatOndört.Designer.cs">
+      <DependentUpon>BarbieSalIkiSaatOndört.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiSaatOnsekiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiSaatOnsekiz.Designer.cs">
+      <DependentUpon>BarbieSalIkiSaatOnsekiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiYirmiBirOtuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiYirmiBirOtuz.Designer.cs">
+      <DependentUpon>BarbieSalIkiYirmiBirOtuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\AslanKralFilmDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\AslanKralFilmDetay.Designer.cs">
+      <DependentUpon>AslanKralFilmDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\BarbieFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\BarbieFilmDetayi.Designer.cs">
+      <DependentUpon>BarbieFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\DoruFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\DoruFilmDetayi.Designer.cs">
+      <DependentUpon>DoruFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\KarlarUlkesiFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\KarlarUlkesiFilmDetayi.Designer.cs">
+      <DependentUpon>KarlarUlkesiFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\NinjaKaplumbagaFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\NinjaKaplumbagaFilmDetayi.Designer.cs">
+      <DependentUpon>NinjaKaplumbagaFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\OksüzKizFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\OksüzKizFilmDetayi.Designer.cs">
+      <DependentUpon>OksüzKizFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\OrmanCocuguFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\OrmanCocuguFilmDetayi.Designer.cs">
+      <DependentUpon>OrmanCocuguFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\OrümcekAdamFilmDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\OrümcekAdamFilmDetay.Designer.cs">
+      <DependentUpon>OrümcekAdamFilmDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\ScoobyDooFilmDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\ScoobyDooFilmDetay.Designer.cs">
+      <DependentUpon>ScoobyDooFilmDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\UzayKöpekleriFilmDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Aile Filmleri Detay\UzayKöpekleriFilmDetay.Designer.cs">
+      <DependentUpon>UzayKöpekleriFilmDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\IstasyonOndokuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\IstasyonOndokuz.Designer.cs">
+      <DependentUpon>IstasyonOndokuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\JohnWickFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\JohnWickFilmDetayi.Designer.cs">
+      <DependentUpon>JohnWickFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KaraSovalyeFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KaraSovalyeFilmDetayi.Designer.cs">
+      <DependentUpon>KaraSovalyeFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KatiliYakalamakFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KatiliYakalamakFilmDetayi.Designer.cs">
+      <DependentUpon>KatiliYakalamakFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KillCommandFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KillCommandFilmDetayi.Designer.cs">
+      <DependentUpon>KillCommandFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KoruyucuFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KoruyucuFilmDetayi.Designer.cs">
+      <DependentUpon>KoruyucuFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\OkcuFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\OkcuFilmDetayi.Designer.cs">
+      <DependentUpon>OkcuFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\OpenheimerFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\OpenheimerFilmDetayi.Designer.cs">
+      <DependentUpon>OpenheimerFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\SuikastcilarFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\SuikastcilarFilmDetayi.Designer.cs">
+      <DependentUpon>SuikastcilarFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\TunnelFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\TunnelFilmDetayi.Designer.cs">
+      <DependentUpon>TunnelFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AlienFilmDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AlienFilmDetay.Designer.cs">
+      <DependentUpon>AlienFilmDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AnnihilationFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AnnihilationFilmDetayi.Designer.cs">
+      <DependentUpon>AnnihilationFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AyinDüsüsüFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AyinDüsüsüFilmDetayi.Designer.cs">
+      <DependentUpon>AyinDüsüsüFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\GelecegeDönüsFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\GelecegeDönüsFilmDetayi.Designer.cs">
+      <DependentUpon>GelecegeDönüsFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\IkibinAtmisYedi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\IkibinAtmisYedi.Designer.cs">
+      <DependentUpon>IkibinAtmisYedi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\RobotFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\RobotFilmDetayi.Designer.cs">
+      <DependentUpon>RobotFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\YedinciHayatFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\YedinciHayatFilmDetayi.Designer.cs">
+      <DependentUpon>YedinciHayatFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\AdaletFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\AdaletFilmDetayi.Designer.cs">
+      <DependentUpon>AdaletFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\DunkirkFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\DunkirkFilmDetayi.Designer.cs">
+      <DependentUpon>DunkirkFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\EsaretinBedeliFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\EsaretinBedeliFilmDetayi.Designer.cs">
+      <DependentUpon>EsaretinBedeliFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\HugoFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\HugoFilmDetayi.Designer.cs">
+      <DependentUpon>HugoFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\LeonFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\LeonFilmDetayi.Designer.cs">
+      <DependentUpon>LeonFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\SislerinIcindeFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\SislerinIcindeFilmDetayi.Designer.cs">
+      <DependentUpon>SislerinIcindeFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\AjanFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\AjanFilmDetayi.Designer.cs">
+      <DependentUpon>AjanFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\CruellaFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\CruellaFilmDetayi.Designer.cs">
+      <DependentUpon>CruellaFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\MrBeanFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\MrBeanFilmDetayi.Designer.cs">
+      <DependentUpon>MrBeanFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\SaskinDedektifFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\SaskinDedektifFilmDetayi.Designer.cs">
+      <DependentUpon>SaskinDedektifFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\ScaryMovieFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\ScaryMovieFilmDetayi.Designer.cs">
+      <DependentUpon>ScaryMovieFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\CiglikAltiFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\CiglikAltiFilmDetayi.Designer.cs">
+      <DependentUpon>CiglikAltiFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\DrakulaFilmDetaylari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\DrakulaFilmDetaylari.Designer.cs">
+      <DependentUpon>DrakulaFilmDetaylari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KonusBenimleFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KonusBenimleFilmDetayi.Designer.cs">
+      <DependentUpon>KonusBenimleFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuGecesiFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuGecesiFilmDetayi.Designer.cs">
+      <DependentUpon>KorkuGecesiFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuSeansiFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuSeansiFilmDetayi.Designer.cs">
+      <DependentUpon>KorkuSeansiFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuYoluFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuYoluFilmDetayi.Designer.cs">
+      <DependentUpon>KorkuYoluFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\OtobanKatilleriFilmDetayi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\OtobanKatilleriFilmDetayi.Designer.cs">
+      <DependentUpon>OtobanKatilleriFilmDetayi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Aile Filmleri\AileFilmListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Aile Filmleri\AileFilmListesi.Designer.cs">
+      <DependentUpon>AileFilmListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\AksiyonFilmListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\AksiyonFilmListesi.Designer.cs">
+      <DependentUpon>AksiyonFilmListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\BilimkurguFilmListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\BilimkurguFilmListesi.Designer.cs">
+      <DependentUpon>BilimkurguFilmListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\DramaFilmListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\DramaFilmListesi.Designer.cs">
+      <DependentUpon>DramaFilmListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\KomediFilmListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\KomediFilmListesi.Designer.cs">
+      <DependentUpon>KomediFilmListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\KorkuGerilimFilmListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\KorkuGerilimFilmListesi.Designer.cs">
+      <DependentUpon>KorkuGerilimFilmListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzleyiciKayitEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzleyiciKayitEkrani.Designer.cs">
+      <DependentUpon>IzleyiciKayitEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzleyiciListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzleyiciListesi.Designer.cs">
+      <DependentUpon>IzleyiciListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="roundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Saatler\BarbieFilmSaatleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saatler\BarbieFilmSaatleri.Designer.cs">
+      <DependentUpon>BarbieFilmSaatleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Saatler\OpenheimerFilmSaatleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saatler\OpenheimerFilmSaatleri.Designer.cs">
+      <DependentUpon>OpenheimerFilmSaatleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Saatler\Saatler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saatler\Saatler.Designer.cs">
+      <DependentUpon>Saatler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SinemaAnaEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SinemaAnaEkran.Designer.cs">
+      <DependentUpon>SinemaAnaEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vizyondakiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vizyondakiler.Designer.cs">
+      <DependentUpon>Vizyondakiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcOnDört.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcOnDört.Designer.cs">
+      <DependentUpon>OpenheimerSalUcOnDört.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcOnsekiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcOnsekiz.Designer.cs">
+      <DependentUpon>OpenheimerSalUcOnsekiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcYirmibirOtuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcYirmibirOtuz.Designer.cs">
+      <DependentUpon>OpenheimerSalUcYirmibirOtuz.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonBirSaatOnbirOtuz.resx">
+      <DependentUpon>SalonBirSaatOnbirOtuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonBirSaatOnüc.resx">
+      <DependentUpon>SalonBirSaatOnüc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonDörtSaatOnaltiOtuz.resx">
+      <DependentUpon>SalonDörtSaatOnaltiOtuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonDörtSaatOndokuz.resx">
+      <DependentUpon>SalonDörtSaatOndokuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnaltiOtuz.resx">
+      <DependentUpon>SalonIkiSaatOnaltiOtuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnBes.resx">
+      <DependentUpon>SalonIkiSaatOnBes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonIkiSaatOnbirOtuz.resx">
+      <DependentUpon>SalonIkiSaatOnbirOtuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOnBes.resx">
+      <DependentUpon>SalonUcSaatOnBes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOndokuz.resx">
+      <DependentUpon>SalonUcSaatOndokuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Aslan Kral Film Koltukları\SalonUcSaatOndört.resx">
+      <DependentUpon>SalonUcSaatOndört.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalDörtOnbes.resx">
+      <DependentUpon>BarbieSalDörtOnbes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalDörtYirmiOtuz.resx">
+      <DependentUpon>BarbieSalDörtYirmiOtuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiSaatOndört.resx">
+      <DependentUpon>BarbieSalIkiSaatOndört.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiSaatOnsekiz.resx">
+      <DependentUpon>BarbieSalIkiSaatOnsekiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aile Film Koltukları\Barbie Film Koltukları\BarbieSalIkiYirmiBirOtuz.resx">
+      <DependentUpon>BarbieSalIkiYirmiBirOtuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\AslanKralFilmDetay.resx">
+      <DependentUpon>AslanKralFilmDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\BarbieFilmDetayi.resx">
+      <DependentUpon>BarbieFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\DoruFilmDetayi.resx">
+      <DependentUpon>DoruFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\KarlarUlkesiFilmDetayi.resx">
+      <DependentUpon>KarlarUlkesiFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\NinjaKaplumbagaFilmDetayi.resx">
+      <DependentUpon>NinjaKaplumbagaFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\OksüzKizFilmDetayi.resx">
+      <DependentUpon>OksüzKizFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\OrmanCocuguFilmDetayi.resx">
+      <DependentUpon>OrmanCocuguFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\OrümcekAdamFilmDetay.resx">
+      <DependentUpon>OrümcekAdamFilmDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\ScoobyDooFilmDetay.resx">
+      <DependentUpon>ScoobyDooFilmDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Aile Filmleri Detay\UzayKöpekleriFilmDetay.resx">
+      <DependentUpon>UzayKöpekleriFilmDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\IstasyonOndokuz.resx">
+      <DependentUpon>IstasyonOndokuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\JohnWickFilmDetayi.resx">
+      <DependentUpon>JohnWickFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KaraSovalyeFilmDetayi.resx">
+      <DependentUpon>KaraSovalyeFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KatiliYakalamakFilmDetayi.resx">
+      <DependentUpon>KatiliYakalamakFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KillCommandFilmDetayi.resx">
+      <DependentUpon>KillCommandFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\KoruyucuFilmDetayi.resx">
+      <DependentUpon>KoruyucuFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\OkcuFilmDetayi.resx">
+      <DependentUpon>OkcuFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\OpenheimerFilmDetayi.resx">
+      <DependentUpon>OpenheimerFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\SuikastcilarFilmDetayi.resx">
+      <DependentUpon>SuikastcilarFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Aksiyon Filmleri Detay\TunnelFilmDetayi.resx">
+      <DependentUpon>TunnelFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AlienFilmDetay.resx">
+      <DependentUpon>AlienFilmDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AnnihilationFilmDetayi.resx">
+      <DependentUpon>AnnihilationFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\AyinDüsüsüFilmDetayi.resx">
+      <DependentUpon>AyinDüsüsüFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\GelecegeDönüsFilmDetayi.resx">
+      <DependentUpon>GelecegeDönüsFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\IkibinAtmisYedi.resx">
+      <DependentUpon>IkibinAtmisYedi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\RobotFilmDetayi.resx">
+      <DependentUpon>RobotFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Bilim Kurgu Filmleri Detay\YedinciHayatFilmDetayi.resx">
+      <DependentUpon>YedinciHayatFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\AdaletFilmDetayi.resx">
+      <DependentUpon>AdaletFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\DunkirkFilmDetayi.resx">
+      <DependentUpon>DunkirkFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\EsaretinBedeliFilmDetayi.resx">
+      <DependentUpon>EsaretinBedeliFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\HugoFilmDetayi.resx">
+      <DependentUpon>HugoFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\LeonFilmDetayi.resx">
+      <DependentUpon>LeonFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Drama Film Detayları\SislerinIcindeFilmDetayi.resx">
+      <DependentUpon>SislerinIcindeFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\AjanFilmDetayi.resx">
+      <DependentUpon>AjanFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\CruellaFilmDetayi.resx">
+      <DependentUpon>CruellaFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\MrBeanFilmDetayi.resx">
+      <DependentUpon>MrBeanFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\SaskinDedektifFilmDetayi.resx">
+      <DependentUpon>SaskinDedektifFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Komedi Film Detayları\ScaryMovieFilmDetayi.resx">
+      <DependentUpon>ScaryMovieFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\CiglikAltiFilmDetayi.resx">
+      <DependentUpon>CiglikAltiFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\DrakulaFilmDetaylari.resx">
+      <DependentUpon>DrakulaFilmDetaylari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KonusBenimleFilmDetayi.resx">
+      <DependentUpon>KonusBenimleFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuGecesiFilmDetayi.resx">
+      <DependentUpon>KorkuGecesiFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuSeansiFilmDetayi.resx">
+      <DependentUpon>KorkuSeansiFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\KorkuYoluFilmDetayi.resx">
+      <DependentUpon>KorkuYoluFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmBilgiDetayi\Yetişkin Film Detayı\Korku Filmleri Detayları\OtobanKatilleriFilmDetayi.resx">
+      <DependentUpon>OtobanKatilleriFilmDetayi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmTürleriListesi\Aile Filmleri\AileFilmListesi.resx">
+      <DependentUpon>AileFilmListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\AksiyonFilmListesi.resx">
+      <DependentUpon>AksiyonFilmListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\BilimkurguFilmListesi.resx">
+      <DependentUpon>BilimkurguFilmListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\DramaFilmListesi.resx">
+      <DependentUpon>DramaFilmListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\KomediFilmListesi.resx">
+      <DependentUpon>KomediFilmListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmTürleriListesi\Sadece Yetişkinler Filmleri Listesi\KorkuGerilimFilmListesi.resx">
+      <DependentUpon>KorkuGerilimFilmListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzleyiciKayitEkrani.resx">
+      <DependentUpon>IzleyiciKayitEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzleyiciListesi.resx">
+      <DependentUpon>IzleyiciListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Saatler\BarbieFilmSaatleri.resx">
+      <DependentUpon>BarbieFilmSaatleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saatler\OpenheimerFilmSaatleri.resx">
+      <DependentUpon>OpenheimerFilmSaatleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saatler\Saatler.resx">
+      <DependentUpon>Saatler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SinemaAnaEkran.resx">
+      <DependentUpon>SinemaAnaEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vizyondakiler.resx">
+      <DependentUpon>Vizyondakiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcOnDört.resx">
+      <DependentUpon>OpenheimerSalUcOnDört.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcOnsekiz.resx">
+      <DependentUpon>OpenheimerSalUcOnsekiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetişkin Film Koltukları\Aksiyon Film Koltukları\Openheimer Film Koltukları\OpenheimerSalUcYirmibirOtuz.resx">
+      <DependentUpon>OpenheimerSalUcYirmibirOtuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data.Core\Data.Core.csproj">
+      <Project>{e7a2d72f-4200-4e6a-9d3c-b0f93175c11b}</Project>
+      <Name>Data.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
